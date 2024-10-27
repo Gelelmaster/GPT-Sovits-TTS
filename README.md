@@ -5,7 +5,11 @@
   conda activate gptsovits
   ``` 
 
-  - (可选) 如果有conda，安装 torch torchvision torchaudio
+  - (可选) 如果有conda，安装 torch torchvision torchaudio  
+    测试环境：  
+    Torch version: 2.4.1+cu121  
+    Torchvision version: 0.19.1+cpu  
+    Torchaudio version: 2.4.1+cu121  
   ``` sh
   查看 cuda 版本
   nvcc --version
