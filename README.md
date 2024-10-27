@@ -2,6 +2,7 @@
 # 1. 安装环境
   - conda运行，python 3.9
   ``` sh
+  conda create -n gptsovits python=3.9
   conda activate gptsovits
   ``` 
 
