@@ -1,4 +1,4 @@
-# 参照 https://github.com/X-T-E-R/GPT-SoVITS-Inference.git 更改而来
+- 参照 https://github.com/X-T-E-R/GPT-SoVITS-Inference.git 更改而来
 # 1. 安装环境
   - conda运行，python 3.9
   ``` sh
