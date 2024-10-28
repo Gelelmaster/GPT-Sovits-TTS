@@ -12,10 +12,13 @@
     Torchvision version: 0.19.1+cu121  
     Torchaudio version: 2.4.1+cu121  
     不知道什么原因，只有在 torch和torchaudio是2.4.1版本时推理速度才正常，更新到2.5.0版本时推理很慢。所以这里建议装固定版本。  
+  
+  - 查看 cuda 版本
   ``` sh
-  # 查看 cuda 版本
   nvcc --version
-  # 安装对应的 torch torchvision torchaudio
+  ```
+  - 安装对应的 torch torchvision torchaudio  
+  ``` sh
   pip install torch==2.4.1+cu121 torchvision==0.19.1+cu121 torchaudio==2.4.1+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
   ```
 
